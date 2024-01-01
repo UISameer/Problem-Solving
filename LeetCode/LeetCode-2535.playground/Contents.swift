@@ -10,7 +10,7 @@ class Solution {
     func differenceOfSum(_ nums: [Int]) -> Int {
         let elementSum = nums.reduce(0){ $0 + $1 }
         let digitSum = nums.map{$0.digits}.flatMap{ $0 }.reduce(0){ $0 + $1 }
-        return elementSum - digitSum
+        return abs(elementSum - digitSum)
     }
     
 //    func differenceOfSum(_ nums: [Int]) -> Int {
