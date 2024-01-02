@@ -9,9 +9,9 @@ class Solution {
         return ans
     }
     
-    func buildArray(_ nums: [Int]) -> [Int] {
-        return nums.map { nums[$0] }
-    }
+//    func buildArray(_ nums: [Int]) -> [Int] {
+//        return nums.map { nums[$0] }
+//    }
 }
 
 let nums = [5,0,1,2,3,4]
